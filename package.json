@@ -1,0 +1,35 @@
+{
+  "name": "warriors-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon -I src/index.ts",
+    "start": "node ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.42",
+    "@types/node": "^20.14.12",
+    "nodemon": "^3.1.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@u4/opencv4nodejs": "^7.1.0",
+    "adbkit": "^2.11.1",
+    "adbkit-repack": "^3.2.6",
+    "bluebird": "^3.7.2",
+    "jimp": "^0.22.12",
+    "ts-node": "^10.9.2"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "opencvIncludeDir": "/opt/homebrew/opt/opencv/include/opencv4",
+    "opencvLibDir": "/opt/homebrew/opt/opencv/lib",
+    "opencvBinDir": "/opt/homebrew/opt/opencv/bin"
+  }
+}

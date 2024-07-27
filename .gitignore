@@ -1,0 +1,97 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output directories
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# SvelteKit build directory
+.svelte-kit
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Static site generators
+public/
+
+# Temporary files
+tmp/
+temp/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
